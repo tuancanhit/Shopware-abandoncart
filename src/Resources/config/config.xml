@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Abandon Cart Configuration</title>
+
+        <input-field type="single-select">
+            <name>Enabled</name>
+            <label>Enabled</label>
+            <options>
+                <option>
+                    <id>yes</id>
+                    <name>Yes</name>
+                    <name lang="de-DE">Yes</name>
+                </option>
+                <option>
+                    <id>no</id>
+                    <name>No</name>
+                    <name lang="de-DE">No</name>
+                </option>
+            </options>
+        </input-field>
+
+        <!--        <input-field type="int">-->
+        <!--            <name>RetryLimit</name>-->
+        <!--            <label>Retry Limit</label>-->
+        <!--            <required>true</required>-->
+        <!--            <defaultValue>1</defaultValue>-->
+        <!--        </input-field>-->
+
+        <!--        <input-field type="int">-->
+        <!--            <name>ScheduleTime</name>-->
+        <!--            <label>Schedule Time</label>-->
+        <!--            <defaultValue>0</defaultValue>-->
+        <!--        </input-field>-->
+        <!--        <component name="sw-entity-multi-id-select">-->
+        <!--            <name>IgnoreCustomerGroup</name>-->
+        <!--            <entity>customer_group</entity>-->
+        <!--            <label>Ignore Customer Group</label>-->
+        <!--        </component>-->
+
+        <component name="sw-entity-single-select">
+            <name>MailTemplate</name>
+            <entity>mail_template</entity>
+            <labelProperty>id</labelProperty>
+            <label>EMail Template</label>
+        </component>
+    </card>
+</config>

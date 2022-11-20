@@ -1,0 +1,41 @@
+{
+    "name": "abandoncart/plugin",
+    "description": "SmartOSC Shopware Abandon Cart Plugin",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Will Nguyen",
+            "email": "canhnt@smartosc.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AbandonCart\\Plugin\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": "6.4.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "AbandonCart\\Plugin\\AbandonCartPlugin",
+        "plugin-icon": "src/Resources/config/icon.png",
+        "label": {
+            "de-DE": "SmartOSC Abandon Cart Plugin",
+            "en-GB": "SmartOSC Abandon Cart Plugin"
+        },
+        "description": {
+            "de-DE": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "en-GB": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        },
+        "manufacturerLink": {
+            "de-DE": "SmartOSC Abandon Cart Plugin",
+            "en-GB": "SmartOSC Abandon Cart Plugin"
+        },
+        "supportLink": {
+            "de-DE": "SmartOSC Abandon Cart Plugin",
+            "en-GB": "SmartOSC Abandon Cart Plugin"
+        }
+    }
+}
