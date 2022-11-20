@@ -24,9 +24,6 @@ use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 use Shopware\Core\Checkout\Cart\SalesChannel\CartService;
 
 /**
- *   
- *   
- *   
  * Class AbandonCartRemindCommand
  *
  * @package AbandonCartPlugin\Commands
