@@ -25,6 +25,8 @@ use Shopware\Core\Checkout\Cart\SalesChannel\CartService;
 
 /**
  *   
+ *   
+ *   
  * Class AbandonCartRemindCommand
  *
  * @package AbandonCartPlugin\Commands
